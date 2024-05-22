@@ -1,49 +1,70 @@
-# Arcadia Zoo
+# Getting Started with Create React App
 
-Arcadia Zoo est une application web permettant aux visiteurs de visualiser les animaux, leurs habitats et les services du zoo. L'application est développée avec Node.js, Express.js pour le backend, et React.js pour le frontend. MongoDB est utilisé comme base de données.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Fonctionnalités
+## Available Scripts
 
-- Gestion des services du zoo.
-- Saisie des comptes rendus par les vétérinaires.
-- Gestion des utilisateurs (administrateurs, employés, vétérinaires).
-- Affichage des avis des visiteurs.
+In the project directory, you can run:
 
-## Prérequis
+### `npm start`
 
-- Node.js (version 14 ou supérieure)
-- npm (version 6 ou supérieure)
-- MongoDB (version 4 ou supérieure)
-- Git
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Clonez le dépôt :
-   'bash'
-git clone https://github.com/votre-utilisateur/arcadia-zoo.git
-cd arcadia-zoo
+### `npm test`
 
-2. Installez les dépendances pour le backend :
-  cd backend
-  npm install
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Installez les dépendances pour le frontend (à la racine du projet) :
-   npm install
-   
-4. Démarrez le frontend (à la racine du projet) :
-   npm start
-   
-5. Démarrez le backend :
-   cd backend
-   npm start
+### `npm run build`
 
-6. Configuration :
-Créez un fichier .env dans le dossier backend et configurez les variables d'environnement suivantes :
-  PORT=3001
-  MONGODB_URI=mongodb://localhost:27017/arcadia_zoo
-  JWT_SECRET=your_secret_jwt
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-   
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
